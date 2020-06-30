@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    #dockerfileの下にあるDockerfileの読み込み
+    build: ./dockerfile
+    container_name: "go_env_atcoder"
+    tty: true
+    #ホストのディレクトリをコンテナにマウント
+    #ホスト:コンテナ
+    volumes:
+      - ./src:/go/src/
