@@ -1,0 +1,4 @@
+起動
+cd /Users/info/Desktop/atcoder 
+
+docker exec -it go_env_atcoder bash
