@@ -14,3 +14,8 @@ for _ in range(n):
 
 for _ in range(M):
     a, b = map(int, input().split())
+
+
+S = input()
+S = S.replace('\n','')
+s_list = list(S)
