@@ -19,3 +19,15 @@ for _ in range(M):
 S = input()
 S = S.replace('\n','')
 s_list = list(S)
+
+#N
+#t1 x1 y1t1 x1 y1
+#t2 x2 y2t2 x2 y2
+#⋮⋮
+#tN xN yNtN xN yN
+N = int(input())
+t = [0 for i in range(N)]
+x = [0 for i in range(N)]
+y = [0 for i in range(N)]
+for i in range(N):
+    t[i], x[i], y[i] = map(int, input().split())
