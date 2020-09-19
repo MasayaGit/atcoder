@@ -31,3 +31,11 @@ x = [0 for i in range(N)]
 y = [0 for i in range(N)]
 for i in range(N):
     t[i], x[i], y[i] = map(int, input().split())
+
+#L1 R1
+#L2 R2
+#⋮⋮
+#Lk Rk
+LR = [list(map(int, input().split())) for i in range(K)]
+for l, r in LR:
+    print(l,r)
