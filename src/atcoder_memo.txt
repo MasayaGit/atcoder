@@ -9,3 +9,7 @@ int(11111111111111111111111111111111/2)
 #尺取り法
 https://upura.hatenablog.com/entry/2019/04/13/232128
 
+
+#めぐる式二分探索
+#条件を満たすかどうか？問題ごとに定義
+https://aotamasaki.hatenablog.com/entry/meguru_bisect
